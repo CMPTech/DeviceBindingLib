@@ -30,7 +30,7 @@ import retrofit2.Callback
 import retrofit2.Response
 
 
-class MainActivity : AppCompatActivity() {
+object MainActivity : AppCompatActivity() {
     private val totalTimerCount: Long = 45000
     private var countdownTimer: CountDownTimer? = null
 
